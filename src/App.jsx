@@ -4,6 +4,7 @@ import ModeToggle from './components/ModeToggle';
 import UserProfile from './components/ObjectState';
 import TodoList from './components/ArrayStatus';
 import StudyMaterials from './components/StudyMaterials';
+import UserData, { Searchfilter, Timer, Dashboard } from './components/ComponentMount';
 
 
 
@@ -78,7 +79,10 @@ function App() {
       <ModeToggle />
       <UserProfile />
       <TodoList />
-
+      <UserData />
+      <Searchfilter />
+      <Timer />
+      <Dashboard />
     </>
   )
 }
