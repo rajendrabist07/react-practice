@@ -113,8 +113,12 @@ function App() {
       {/* ============ PRO TODO APP ============ */}
       {/* <TodoApp />
 
+<<<<<<< HEAD
       <Clock /> */}
 
+=======
+      <Clock />
+>>>>>>> 9834879 (Commited for main)
       <API />
     </>
   )

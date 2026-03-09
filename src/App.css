@@ -1053,3 +1053,18 @@ button {
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+<<<<<<< HEAD
+=======
+
+/* .image-box img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+} */
+
+.result-box p {
+  font-size: 18px;
+  color: #333;
+  font-family: sans-serif;
+  font-size: medium;
+}
+>>>>>>> 9834879 (Commited for main)
