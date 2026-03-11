@@ -1029,6 +1029,7 @@ button {
   box-shadow: 0 10px 20px #a19f9f6d;
   padding: 20px 32px;
   margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .result-box {
@@ -1053,8 +1054,6 @@ button {
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-<<<<<<< HEAD
-=======
 
 /* .image-box img:hover {
   transform: scale(1.05);
@@ -1067,4 +1066,3 @@ button {
   font-family: sans-serif;
   font-size: medium;
 }
->>>>>>> 9834879 (Commited for main)
