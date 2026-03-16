@@ -6,32 +6,35 @@
   background: #f5f7fb;
   margin-top: 4rem;
   border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(146, 161, 206, 0.476);
 }
 
 /* form */
 .ui-form {
   display: flex;
-  gap: 10px;
   margin-bottom: 30px;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .ui-form input {
   flex: 1;
-  min-width: 220px;
-  padding: 10px;
-  border-radius: 6px;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(146, 161, 206, 0.858);
   border: 1px solid #ccc;
 }
 
 .ui-form button {
-  background: #6366f1;
+  background: #9099e1;
   color: white;
   border: none;
   padding: 10px 16px;
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -144,4 +147,72 @@
   .ui-card {
     max-width: 100%;
   }
+}
+
+/* Extra helpers for APIs dashboard */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #333;
+}
+
+.price-tag {
+  padding: 4px 10px;
+  background: #eef2ff;
+  border-radius: 999px;
+  font-weight: 700;
+  color: #2c3a8a;
+}
+
+.product-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.inline-edit input,
+.inline-edit textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.inline-edit textarea {
+  resize: none;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.button-row button {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  background: #9099e1;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button-row button:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+.meta {
+  font-size: 12px;
+  opacity: 0.8;
+  margin-top: 8px;
 }

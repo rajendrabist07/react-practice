@@ -19,8 +19,8 @@ import Clock from './components/Clock';
 import API from './components/API';
 import DogAPI from './components/DogAPI';
 import CreateProduct from './components/CreateProduct'
-
-
+import APIs from './components/APIs';
+import ReactExplorer from './components/ReactExplorer';
 
 
 
@@ -118,8 +118,12 @@ function App() {
       <CreateProduct />
 
       <API />
+      <APIs />
+      <ReactExplorer />
+
     </>
   )
 }
+
 
 export default App

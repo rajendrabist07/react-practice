@@ -1,0 +1,38 @@
+.ex-container {
+  text-align: center;
+  margin-top: 80px;
+  font-family: Arial;
+  height: 60vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.topics {
+  margin-top: 30px;
+}
+
+.topics span {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  background: #f1f1f1;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.topics span:hover {
+  background: #61dafb;
+}
+
+.ex-card {
+  margin-top: 30px;
+  padding: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
