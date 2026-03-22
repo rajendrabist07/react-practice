@@ -21,6 +21,20 @@ import DogAPI from './components/DogAPI';
 import CreateProduct from './components/CreateProduct'
 import APIs from './components/APIs';
 import ReactExplorer from './components/ReactExplorer';
+import Playground from './components/Playground';
+import UseStateDemo from './components/UseState';
+import UseEffectDemo from './components/UseEffect';
+import APIFetch from './components/APIFetch';
+import FormValidationDemo from './components/FormValidation';
+import UseContextDemo from './components/UseContext';
+import UseReducerDemo from './components/UseReducer';
+import UseRefDemo from './components/UseRef';
+import UseMemoDemo from './components/UseMemo';
+import UseCallbackDemo from './components/UseCallback';
+import CustomHooksDemo from './components/CustomHooks';
+import ReactRouterDemo from './advanced-concepts/ReactRouter';
+import LazySuspenseDemo from './advanced-concepts/LazyLoading';
+
 
 
 
@@ -51,7 +65,8 @@ function App() {
 
   return (
     <>
-
+      <ReactRouterDemo />
+      <LazySuspenseDemo />
       <StudyMaterials />
 
 
@@ -120,6 +135,23 @@ function App() {
       <API />
       <APIs />
       <ReactExplorer />
+      <Playground />
+
+      <UseStateDemo />
+      <UseEffectDemo />
+      <UseContextDemo />
+      <UseReducerDemo />
+      <UseRefDemo />
+      <UseMemoDemo />
+      <UseCallbackDemo />
+      <CustomHooksDemo />
+      <APIFetch />
+      <FormValidationDemo />
+
+
+
+
+
 
     </>
   )

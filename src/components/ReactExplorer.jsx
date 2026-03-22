@@ -18,7 +18,9 @@ function ReactExplorer() {
 
         fast: "React fast huncha kina vane Virtual DOM use garcha ra minimal DOM updates garcha.",
 
-        reusable: "Reusable components ko matlab ek component lai multiple thau ma use garna milcha. Yo le code clean, maintainable ra scalable banaucha."
+        reusable: "Reusable components ko matlab ek component lai multiple thau ma use garna milcha. Yo le code clean, maintainable ra scalable banaucha.",
+
+        reactnative: "React Native le React ko concept lai mobile app development ma use garna dincha. Ek codebase bata iOS ra Android app banaucha."
     };
 
     return (
@@ -60,6 +62,10 @@ function ReactExplorer() {
                     Reusable Components
                 </span>
 
+                <span onClick={() => setSelectedFeature("reactnative")}>
+                    React Native
+                </span>
+
             </div>
 
             {selectedFeature && (
@@ -70,6 +76,8 @@ function ReactExplorer() {
             )}
 
         </div>
+
+
     );
 }
 

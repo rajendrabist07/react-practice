@@ -1,0 +1,20 @@
+.playground-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #4f46e5;
+}
