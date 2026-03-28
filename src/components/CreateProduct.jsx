@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import "./CreateProduct.css";
 
 const CreateProduct = () => {
@@ -7,7 +7,7 @@ const CreateProduct = () => {
     const [limit, setLimit] = useState(5);
     const [page, setPage] = useState(1);
 
-    const fetchData = async () => {
+    const fetchData = useCallback(async () => {
 
         const skip = (page - 1) * limit;
 
@@ -18,11 +18,11 @@ const CreateProduct = () => {
         const result = await response.json();
 
         setProducts(result.products);
-    };
+    }, [limit, page]);
 
     useEffect(() => {
         fetchData();
-    }, [limit, page]);
+    }, [fetchData]);
 
 
 

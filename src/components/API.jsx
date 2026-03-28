@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import Form from "./form";
 import "./API.css";
 import DELETE from "./DELETE";
@@ -8,7 +8,7 @@ const API = () => {
     const [limit, setLimit] = useState(5);
     const [page, setPage] = useState(1);
 
-    const fetchData = async () => {
+    const fetchData = useCallback(async () => {
         try {
             const skip = (page - 1) * limit;
 
@@ -22,11 +22,11 @@ const API = () => {
         } catch (error) {
             console.log(error);
         }
-    };
+    }, [limit, page]);
 
     useEffect(() => {
         fetchData();
-    }, [limit, page]);
+    }, [fetchData]);
 
     const deleteProduct = async (id) => {
         try {
