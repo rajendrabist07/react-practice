@@ -40,16 +40,19 @@ This repository serves as a comprehensive learning resource for React developmen
 ## 🛠️ Tech Stack
 
 ### Core Dependencies
+
 - **React 19.2.0** - Latest React with concurrent features
 - **React DOM 19.2.0** - React rendering library
 - **React Router DOM 6.0.0** - Declarative routing for React
 
 ### Development Tools
+
 - **Vite 7.3.1** - Fast build tool and dev server
 - **ESLint 9.39.1** - Code linting and style enforcement
 - **TypeScript Types** - Type definitions for React
 
 ### Key Concepts Covered
+
 - ⚛️ Component Architecture
 - 🎣 React Hooks (15+ implementations)
 - 🔄 State Management Patterns
@@ -126,30 +129,35 @@ react-practice-lab/
 ## ✨ Key Features
 
 ### 🎣 React Hooks Masterclass
+
 - **15+ Hook Implementations** - Complete coverage of all React hooks
 - **Real-world Examples** - Practical use cases for each hook
 - **Performance Patterns** - Optimized implementations with best practices
 - **Custom Hooks** - Reusable hook patterns for common functionality
 
 ### 🌐 API Integration Suite
+
 - **REST API Operations** - GET, POST, PUT, DELETE implementations
 - **Error Handling** - Comprehensive error management patterns
 - **Loading States** - User experience optimizations
 - **External APIs** - Integration with third-party services (Dog API, etc.)
 
 ### 🛣️ Advanced Routing
+
 - **React Router v6** - Modern routing with nested routes
 - **Dynamic Routing** - URL parameters and query strings
 - **Protected Routes** - Authentication-based route guarding
 - **404 Handling** - Custom not-found pages
 
 ### 🎨 Creative Components
+
 - **3D CSS Cube** - Interactive 3D transformations
 - **Emoji Rating System** - Intuitive user feedback
 - **Dark/Light Mode Toggle** - Theme switching functionality
 - **Real-time Clock** - Dynamic time display
 
 ### 📝 Form & Validation
+
 - **Multiple Validation Patterns** - Client-side validation techniques
 - **User Input Handling** - Controlled components and state management
 - **Error Display** - User-friendly error messaging
@@ -158,6 +166,7 @@ react-practice-lab/
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm or yarn package manager
 - Git for version control
@@ -165,17 +174,20 @@ react-practice-lab/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/rajendrabist07/react-practice.git
    cd react-practice
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -207,40 +219,45 @@ npm run lint
 ### Core Components
 
 #### 🎣 Hooks Components
-| Component | Purpose | Key Features |
-|-----------|---------|--------------|
-| `UseState.jsx` | State management basics | Multiple state variables, object state |
-| `UseEffect.jsx` | Side effects handling | Cleanup, dependencies, API calls |
-| `UseContext.jsx` | Context API usage | Provider/Consumer pattern, theme switching |
-| `UseReducer.jsx` | Complex state logic | Actions, reducers, state transitions |
-| `UseRef.jsx` | DOM manipulation | Direct DOM access, mutable references |
-| `UseMemo.jsx` | Performance optimization | Expensive calculations caching |
-| `UseCallback.jsx` | Function memoization | Preventing unnecessary re-renders |
+
+| Component         | Purpose                  | Key Features                               |
+| ----------------- | ------------------------ | ------------------------------------------ |
+| `UseState.jsx`    | State management basics  | Multiple state variables, object state     |
+| `UseEffect.jsx`   | Side effects handling    | Cleanup, dependencies, API calls           |
+| `UseContext.jsx`  | Context API usage        | Provider/Consumer pattern, theme switching |
+| `UseReducer.jsx`  | Complex state logic      | Actions, reducers, state transitions       |
+| `UseRef.jsx`      | DOM manipulation         | Direct DOM access, mutable references      |
+| `UseMemo.jsx`     | Performance optimization | Expensive calculations caching             |
+| `UseCallback.jsx` | Function memoization     | Preventing unnecessary re-renders          |
 
 #### 🌐 API Components
-| Component | Purpose | Methods |
-|-----------|---------|---------|
-| `API.jsx` | Basic API operations | GET, POST, error handling |
-| `APIFetch.jsx` | Modern fetch API | Async/await, response handling |
-| `DogAPI.jsx` | External API integration | Image fetching, loading states |
-| `CreateProduct.jsx` | CRUD operations | Form submission, validation |
+
+| Component           | Purpose                  | Methods                        |
+| ------------------- | ------------------------ | ------------------------------ |
+| `API.jsx`           | Basic API operations     | GET, POST, error handling      |
+| `APIFetch.jsx`      | Modern fetch API         | Async/await, response handling |
+| `DogAPI.jsx`        | External API integration | Image fetching, loading states |
+| `CreateProduct.jsx` | CRUD operations          | Form submission, validation    |
 
 #### 🎨 Creative Components
-| Component | Purpose | Features |
-|-----------|---------|----------|
-| `CubeUI.jsx` | 3D CSS animations | 2D/3D mode switching, hover effects |
+
+| Component         | Purpose             | Features                               |
+| ----------------- | ------------------- | -------------------------------------- |
+| `CubeUI.jsx`      | 3D CSS animations   | 2D/3D mode switching, hover effects    |
 | `EmojiRating.jsx` | Interactive ratings | Emoji-based feedback, state management |
-| `ModeToggle.jsx` | Theme switching | Dark/light mode, CSS variables |
+| `ModeToggle.jsx`  | Theme switching     | Dark/light mode, CSS variables         |
 
 ### Advanced Concepts
 
 #### 🛣️ Routing (`ReactRouter.jsx`)
+
 - Declarative routing with React Router v6
 - Nested routes and dynamic parameters
 - Navigation components and active link styling
 - 404 error handling
 
 #### ⚡ Performance (`Performance.jsx`)
+
 - Code splitting and lazy loading
 - Memoization techniques
 - Bundle optimization strategies
@@ -298,6 +315,7 @@ We welcome contributions! Please follow these guidelines:
 ### Commit Message Convention
 
 We follow conventional commit format:
+
 - `feat:` New features
 - `fix:` Bug fixes
 - `docs:` Documentation updates
@@ -343,24 +361,28 @@ main (production-ready)
 ## 📈 Roadmap
 
 ### Phase 1: Core Completion ✅
+
 - [x] React Hooks implementation (15+ hooks)
 - [x] Basic API integrations
 - [x] Component architecture patterns
 - [x] Form validation systems
 
 ### Phase 2: Advanced Features 🔄
+
 - [x] React Router v6 implementation
 - [ ] Performance optimization suite
 - [ ] Testing framework integration
 - [ ] TypeScript migration
 
 ### Phase 3: Ecosystem Integration 📋
+
 - [ ] State management (Zustand/Redux)
 - [ ] UI component library
 - [ ] Backend API integration
 - [ ] Authentication system
 
 ### Phase 4: Production Ready 🎯
+
 - [ ] Comprehensive testing
 - [ ] CI/CD pipeline
 - [ ] Performance monitoring
@@ -380,6 +402,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **Rajendra Bist**
+
 - GitHub: [@rajendrabist07](https://github.com/rajendrabist07)
 - LinkedIn: [rajendrabist](https://linkedin.com/in/rajendrabist)
 - Email: rajendrabist07@gmail.com
